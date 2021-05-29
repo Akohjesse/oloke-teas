@@ -1,4 +1,4 @@
-setTimeout(animateStart, 3000);
+setTimeout(animateStart, 4000);
 
 function animateStart(){
     let slider;
