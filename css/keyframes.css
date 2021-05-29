@@ -1,0 +1,8 @@
+.rotate_switch{
+   animation: rotateswitch 2s ease-in-out 0 infinite normal  forwards;
+}
+@keyframes rotateswitch {
+    0%{transform:rotate(0)}
+    50%{transform: translateX(40px}
+    100%{transform:rotate(0)}
+}
