@@ -1054,9 +1054,9 @@ font-weight: bold;
  .text-bg a {
      font-size: 16px;
      border-radius: 6px;
-border:none;
-background-color:#42bd46;
-color: #fff;
+border:1px solid grey;
+background-color:transparent;
+color: #428713;
 padding: 9px 0px;
 max-width: 171px;
 width: 100%;
