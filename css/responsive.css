@@ -237,7 +237,7 @@ line-height: 20px;}
 }
      .header {
          padding: 5px 0px 0px 0px;
-         background:linear-gradient(to right, orange, lightgreen);
+         background:linear-gradient(to right, rgb(243, 235, 221), lightgreen);
     }
     .logo_section{
         z-index:10;
@@ -273,8 +273,5 @@ line-height: 20px;}
 .images_box {
     margin: 30px 0;
 }
-.margin_top {margin-top: 30px;}
-.margin_top span {display: none;}
-.testimonial_cont {    padding: 34px 20px;}  
 
 }

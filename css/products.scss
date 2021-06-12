@@ -1,0 +1,125 @@
+@media (max-width: 575px) {
+    .products{
+        h3{
+            text-align: center;
+        }
+        width:100%;
+        margin:0 auto;
+        
+        .oloke_img{
+            width:100%;
+    
+        }
+        .banner{
+            width:93%;
+            background: white;
+            transform: translateY(-30%);
+            box-shadow: 0px 0px 10px 1px #c1c1c1;;
+            margin: 0 auto;
+            padding:8px 0px;
+            text-align: center;
+            h2{
+                color:orange;
+            }
+        }
+        .items{
+            width:93%;
+            margin: 0 auto;
+            .wrap{
+                margin:20px 0px;
+                text-align: center;
+                box-shadow: 0px 0px 10px 1px #c1c1c1;;
+                padding:20px;
+                .img{
+                    width:100%;
+                    img{
+                        width:100%;
+                    }
+                }
+                .item_info{
+                    h2,p{
+                        margin:10px 0px;
+                    }
+                    p{
+                        font-size: 0.9em;
+                    }
+                }
+                .buy{
+                    margin:10px 0px;
+                    button{
+                        width:auto;
+                        padding:8px 15px;
+                        color:green;
+                        background:white;
+                        text-align: centers;
+                        border: 1px solid grey;
+                        border-radius:4px;
+                    }
+                }
+            }
+        }
+        .more
+        {
+        text-align:center;
+        button{
+            color:rgb(24, 172, 24);
+            font-size:1em;
+            text-transform: uppercase;
+            padding:9 20px ;
+            background: white;
+        }
+        }
+    }
+
+    .favourites{
+         padding:30px 0px;
+        h3{
+            text-align: center;
+            margin-top:20px;
+            font-size: 1.5em;
+        }
+        width:100%;
+        margin:0 auto;
+
+        .items{
+            width:93%;
+            margin: 0 auto;
+            .wrap{
+                margin:20px 0px;
+                box-shadow: 0px 0px 10px 1px #c1c1c1;;
+                padding:20px;
+            }
+            .img{
+                width:100%;
+                img{
+                    width:100%;
+                }
+            }
+            p{
+                margin:5px 0px;
+            }
+            .name{
+                font-size: 1.5em
+            }
+            .price{
+                color: green;
+            }
+            .info{
+                line-height: normal;
+                font-size :0.9em;;
+            }
+            .add{
+                margin:20px 0;
+                color: orange;
+                button{
+                    width:auto;
+                    padding:8px 15px;
+                    background:white;
+                    text-align: center;
+                    border: 1px solid grey;
+                    border-radius:4px;
+                }
+            }
+        }
+    }
+}
