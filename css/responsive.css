@@ -89,6 +89,9 @@
     .text-bg span{
         margin:10px 0;
     }
+    .main-menu{
+        display: none;
+    }
 
 }
  @media (min-width: 1200px) and (max-width: 1500px) {
@@ -214,6 +217,21 @@ line-height: 20px;}
    
 }
  @media (max-width: 575px) {
+    .header  .flex-item{
+        display: flex;
+        width:93%;
+        margin:0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu_btn .bars i{
+        font-size:22px;
+        font-weight: 650;
+    }
+    #wave_header{
+        margin-top:-5%;
+        z-index:-10;
+    }
     .menu-area {
     float: inherit;
 }
@@ -221,10 +239,16 @@ line-height: 20px;}
          padding: 5px 0px 0px 0px;
          background:linear-gradient(to right, orange, lightgreen);
     }
+    .logo_section{
+        z-index:10;
+    }
     .logo img{
         width:80px;
     }
-.slider_section {padding: 10px 0px 40px 0px;}
+.slider_section {
+    padding: 10px 0px 40px 0px;
+    margin-top: 0px;
+}
    .text-bg span {
         font-size: 30px;
        line-height: 36px;
