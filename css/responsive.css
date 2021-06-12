@@ -82,51 +82,13 @@
 }
 /*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
  @media only screen and (min-width: 280px) and (max-width: 599px) {
-     .cart-content-right {
-         padding-bottom: 5px;
+     .slider_section{
+         margin-top:10%;
+     }
+    .padding_dd {padding: 0px 20px;};
+    .text-bg span{
+        margin:10px 0;
     }
-     .megamenu>.row [class*="col-"] {
-         padding: 0px;
-    }
-     .menu-area-main .megamenu .men-cat {
-         padding: 0px 15px;
-    }
-     .menu-area-main .megamenu .women-cat {
-         padding: 0px 15px;
-    }
-     .menu-area-main .megamenu .el-cat {
-         padding: 0px 15px;
-    }
-     .mean-container .mean-nav ul li a {
-         padding: 1em 4%;
-         width: 92%;
-    }
-      .mean-container .mean-nav ul li a:hover {color: #43960f;}
-     .mean-container .mean-nav ul li li a {
-         width: 90%;
-         padding: 1em 5%;
-    }
-     .mean-container .sub-full.megamenu-categories ol li a {
-         padding: 5px 0px;
-         text-transform: capitalize;
-         width: 100%;
-    }
-     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-         width: auto;
-         border: none;
-         float: none;
-    }
-     .menu-area-main {
-         height: 290px;
-         overflow-y: auto;
-    }
-     .mean-container .mean-nav ul li a.mean-expand {
-         top: 0;
-    }
-    .padding_dd {padding: 0px 20px;}
- 
-
-
 
 }
  @media (min-width: 1200px) and (max-width: 1500px) {
@@ -256,18 +218,16 @@ line-height: 20px;}
     float: inherit;
 }
      .header {
-         padding: 20px 0px 0px 0px;
-         background: #efefef;
+         padding: 5px 0px 0px 0px;
+         background:linear-gradient(to right, orange, lightgreen);
     }
-    .mean-last {display: none !important;}
-     .logo {
-      float: inherit;
-    margin-top: 0px;
-}
+    .logo img{
+        width:80px;
+    }
 .slider_section {padding: 10px 0px 40px 0px;}
    .text-bg span {
         font-size: 30px;
-    line-height: 36px;
+       line-height: 36px;
    }
 
    .text-bg h1 {
@@ -280,16 +240,6 @@ line-height: 20px;}
     font-size: 16px;
    line-height: 24px;
   }
-.Vegetable .Vegetable_fom {
-    padding: 15px 15px;
-    width: 68%;
-   font-size: 14px;
-}
-.Search_btn  {
-    font-size: 13px;
-
-max-width: 71px;
-}
 
 .text-bg a {
     margin-right: 4px;
@@ -299,36 +249,8 @@ max-width: 71px;
 .images_box {
     margin: 30px 0;
 }
-
-.about .about-box h2 { font-size: 34px; }
-.about .about-box p {padding: 20px 0px; font-size: 16px; line-height: 25px;}
-.about .about-box::after {position: inherit;}
-.titlepage h2 {line-height: 40px; font-size: 31px;}
-.vegetable_shop h3 { font-size: 25px; }
-
-.vegetable_shop p {margin-bottom: 30px;}
 .margin_top {margin-top: 30px;}
-.vegetable_img span {display: none;}
 .margin_top span {display: none;}
 .testimonial_cont {    padding: 34px 20px;}  
-.cross_inner h3 {
-    padding-left: 0px;
-padding-top: 20px;
-padding-bottom: 25px;
-}
-.testimonial_cont p {
-    padding-left: 0px;
-    font-size: 15px;
-    line-height: 21px;
-}
-.clients .titlepage h2 {margin-bottom: 0px;}
 
-
-
-ul.loca {
-    margin-bottom: 30px;
-}
-ul.Menu_footer {
-      margin-bottom: 30px;
-}
 }
