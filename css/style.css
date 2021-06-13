@@ -758,6 +758,7 @@ width: 24%;
 }
  .text-bg {text-align: left;}
   .text-bg span {
+      transition: ease-in 0.5s ;
        font-size: 31px;
     line-height: 41px;
     color: #020500
@@ -769,12 +770,14 @@ font-size: 61px;
 font-family: 'Limelight', cursive;
 line-height: 85px;
 padding-bottom: 30px;
+transition: ease-in 0.5s ;
 font-weight: bold;
 }
  .text-bg p {
      font-size: 18px;
      display: block;
      color: #020500;
+     transition: ease-in 0.5s ;
      line-height: 32px;
      padding-bottom: 30px;
      font-family: 'Raleway', sans-serif;
