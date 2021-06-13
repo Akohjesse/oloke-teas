@@ -1,17 +1,13 @@
 document.querySelector('.menu_btn .bars i').addEventListener('click', ()=>{
 	document.querySelector('.menu_box').style = 'display:block;';
-	var on = true;
-
-	while(on){
-		window.document.addEventListener('click', (e)=>{
-            if(!e.target.contains('menu_box')){
-				document.querySelector('.menu_box').style = 'display:none';
-			}
-		})
-	}
 })
 
-
+this.addEventListener('click', (e)=> {
+	
+	if(e.target.classList.contains('menu_btn')){
+		console.log('peter')
+	}
+})
 
 
 const swiper = new Swiper('.swiper-container', {
