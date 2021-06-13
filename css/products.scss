@@ -1,4 +1,27 @@
 @media (max-width: 575px) {
+    .menu_box{
+        display: none;
+        width:100%;
+        z-index: 30;
+        height:100vh;
+        backdrop-filter: blur(4px);
+        position:fixed;
+        .wrap{
+            padding:20px 30px;
+            width:80%;
+            border-radius:13px;
+            margin:50px auto;
+            background:orange;
+            .menu_box_item{
+                ul{
+                    li{
+                        margin:10px 0;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
     .products{
         h3{
             text-align: center;
@@ -32,8 +55,12 @@
                 padding:20px;
                 .img{
                     width:100%;
+                    &:hover img{
+                        transform: scale(1.1);
+                    }
                     img{
                         width:100%;
+                        transition: 0.5s;
                     }
                 }
                 .item_info{
@@ -118,6 +145,83 @@
                     text-align: center;
                     border: 1px solid grey;
                     border-radius:4px;
+                }
+            }
+        }
+    }
+
+    .accesories{
+        width:93%;
+        margin: 0 auto;
+
+        .wrap{
+            margin:20px auto;
+            width:95%;
+            .img{
+                width:100%;
+            }
+            img{
+                border-radius: 10px;
+                filter:invert(20%);
+                
+            }
+            p{
+                transform: translateY(-50vh);
+                padding:20px;
+                line-height: 30px;
+                font-size: 1.5em;
+                font-weight: 850;
+                color:white;
+            }
+        }
+    }
+    footer{
+        background:rgba(186, 248, 186, 0.898);
+        background-size: cover;
+        .wrap{
+            width:95%;
+            padding:5% 10px;
+            margin:0px auto;
+            .sideBYside{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                ul{
+                    a{
+                        text-decoration: none;
+                    }
+                  li{
+                      list-style-type: none;
+                      margin:10px 0px;
+                      font-size:0.9em;
+                      color:rgb(0, 0, 0);
+                      a{
+                          text-decoration: none;
+                          color:rgb(0, 0, 0);
+                      }
+                     
+                  }
+                }
+            }
+            .socials{
+                margin:5% 0px;
+                text-align: center;
+                i{
+                    font-size:1.2em;
+           
+                    padding:0px 4%;
+                    color:rgb(0, 0, 0);
+                }
+                a{
+                    text-decoration: none;
+                }
+            }
+            .credits{
+                text-align: center;
+                font-size:0.9em;
+                color:rgb(0, 0, 0);
+                a{
+                    color: orange;
                 }
             }
         }

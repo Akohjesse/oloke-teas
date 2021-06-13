@@ -1,4 +1,24 @@
 @media (max-width: 575px) {
+  .menu_box {
+    display: none;
+    width: 100%;
+    z-index: 30;
+    height: 100vh;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    position: fixed;
+  }
+  .menu_box .wrap {
+    padding: 20px 30px;
+    width: 80%;
+    border-radius: 13px;
+    margin: 50px auto;
+    background: orange;
+  }
+  .menu_box .wrap .menu_box_item ul li {
+    margin: 10px 0;
+    color: white;
+  }
   .products {
     width: 100%;
     margin: 0 auto;
@@ -37,8 +57,14 @@
   .products .items .wrap .img {
     width: 100%;
   }
+  .products .items .wrap .img:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
   .products .items .wrap .img img {
     width: 100%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .products .items .wrap .item_info h2, .products .items .wrap .item_info p {
     margin: 10px 0px;
@@ -118,6 +144,84 @@
     text-align: center;
     border: 1px solid grey;
     border-radius: 4px;
+  }
+  .accesories {
+    width: 93%;
+    margin: 0 auto;
+  }
+  .accesories .wrap {
+    margin: 20px auto;
+    width: 95%;
+  }
+  .accesories .wrap .img {
+    width: 100%;
+  }
+  .accesories .wrap img {
+    border-radius: 10px;
+    -webkit-filter: invert(20%);
+            filter: invert(20%);
+  }
+  .accesories .wrap p {
+    -webkit-transform: translateY(-50vh);
+            transform: translateY(-50vh);
+    padding: 20px;
+    line-height: 30px;
+    font-size: 1.5em;
+    font-weight: 850;
+    color: white;
+  }
+  footer {
+    background: rgba(186, 248, 186, 0.898);
+    background-size: cover;
+  }
+  footer .wrap {
+    width: 95%;
+    padding: 5% 10px;
+    margin: 0px auto;
+  }
+  footer .wrap .sideBYside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .wrap .sideBYside ul a {
+    text-decoration: none;
+  }
+  footer .wrap .sideBYside ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    font-size: 0.9em;
+    color: black;
+  }
+  footer .wrap .sideBYside ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  footer .wrap .socials {
+    margin: 5% 0px;
+    text-align: center;
+  }
+  footer .wrap .socials i {
+    font-size: 1.2em;
+    padding: 0px 4%;
+    color: black;
+  }
+  footer .wrap .socials a {
+    text-decoration: none;
+  }
+  footer .wrap .credits {
+    text-align: center;
+    font-size: 0.9em;
+    color: black;
+  }
+  footer .wrap .credits a {
+    color: orange;
   }
 }
 /*# sourceMappingURL=products.css.map */

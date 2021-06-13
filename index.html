@@ -20,11 +20,16 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!-- Responsive-->
-  <link rel="stylesheet" href="css/responsive.css">  
+  <link rel="stylesheet" href="css/responsive.css"> 
+  
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <!-- Scrollbar Custom CSS -->
-  <link rel="stylesheet" href="css/meanmenu.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
 
 
 </head>
@@ -50,16 +55,21 @@
    </div>
  </div> -->
   <!-- header -->
-  <!-- <div class="menu_box">
-    <div class="menu_box_item">
-      <ul>
-        <li>Products</li>
-        <li>Accessories</li>
-        <li>Recipes</li>
-        <li>Contact</li>
-      </ul>
+
+  <div class="menu_box animate__animated animate__fadeIn">
+    <div class="wrap">
+      <div class="menu_box_item">
+        <ul>
+          <li>Products</li>
+          <li>Accessories</li>
+          <li>Flavours<li/>
+          <li>Recipes</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </div>
-  </div> -->
+   
+  </div>
   <header>
     <!-- header inner -->
     <div class="header-top">
@@ -111,7 +121,7 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
        
         <div class="carousel-inner">
-          <div class="carousel-item">
+          <div class="carousel-item active">
 
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
@@ -136,7 +146,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item active">
+          <div class="carousel-item ">
 
             <div class="container-fluid padding_dd">
               <div class="carousel-caption">
@@ -197,19 +207,6 @@
          <button>Shop Now</button>
        </div>
       </div>
-
-      <div class="wrap">
-        <div class="img">
-          <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGVhJTIwYmFnfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="tea_picture">
-        </div>
-        <div class="item_info">
-          <h2>Lorem Ipsum Dolor</h2>
-          <p>Lorem Doloremque distinctio dolor quisquam istes sunt ea cupiditate nam dicta sint consequuntur</p>
-        </div>
-        <div class="buy">
-          <button>Shop Now</button>
-        </div>
-       </div>
 
        <div class="wrap">
         <div class="img">
@@ -315,7 +312,7 @@
 
         <div class="wrap">
           <div class="img">
-            <img src="https://images.unsplash.com/photo-1597318109735-d3612887d1ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHRlYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+            <img src="https://images.unsplash.com/photo-1561244465-bf17cd41bc30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjB0ZWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
           </div>
 
           <div class="buy_info">
@@ -329,33 +326,150 @@
           </div>
         </div>
 
+        <div class="wrap">
+          <div class="img">
+            <img src="https://images.unsplash.com/photo-1594137112790-b365743bdd3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGNoaW5lc2UlMjB0ZWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+          </div>
+
+          <div class="buy_info">
+           <p class="name">Chineese Tea</p>
+           <p class="price">$1.99</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur ipsam odit.</p>
+            <div class="add">
+              <button>ADD TO CART <i class="ri-shopping-cart-2-line"></i> </button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="img">
+            <img src="https://images.unsplash.com/photo-1546852199-2d8e8c4aaada?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjB0ZWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+          </div>
+
+          <div class="buy_info">
+           <p class="name">Green Tea</p>
+           <p class="price">$9.99</p>
+            <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur ipsam odit.</p>
+            <div class="add">
+              <button>ADD TO CART <i class="ri-shopping-cart-2-line"></i> </button>
+            </div>
+
+          </div>
+        </div>
 
       </div>
   </section>
 
+  <section class="accesories">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="wrap swiper-slide">
+          <div class="img">
+            <img src="https://images.unsplash.com/photo-1548855917-74db67f6f74e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlYSUyMGN1cHMlMjB0ZWFwb3RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+            <p>Get Tea Accesories from us, ranging from cups to spoons, to tea pots, ornaments and so much more</p>
+          </div>
+        </div>
+    
+        <div class="wrap swiper-slide">
+          <div class="img">
+            <img src="https://images.unsplash.com/photo-1593532320143-0fe08058387a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRlYSUyMGN1cHMlMjB0ZWFwb3RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+            <p>Get Tea Accesories from us, ranging from cups to spoons, to tea pots, ornaments and so much more</p>
+          </div>
+        </div>
+    
+        <div class="wrap swiper-slide">
+          <div class="img">
+            <img src="https://images.unsplash.com/photo-1584799187460-bf6f66895eeb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRlYSUyMGN1cHMlMjB0ZWFwb3RzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+            <p>Get Tea Accesories from us, ranging from cups to spoons, to tea pots, ornaments and so much more</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+  </section>
+
 
 </main>
-    <footr>
-      <div class="footer ">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
-              <div class="copyright">
-                <div class="container">
-                  <p>Copyright © 2021 Olókè Premium Tea's</p>
-                </div>
-              </div>
-            </div>
-          </footr>
+<footer>
+  <div class="wrap">
+      <div class="sideBYside">
+          <div class="Resource">
+              <ul>
+                  <li>
+                      <a>
+                        Our Teas
+                      </a>
+                    
+                  </li>
+                  <li>
+                      <a>
+                          FaQ's
+                      </a>
+                     </li>
+                  <li>Careers</li>
+                   <li>Our history</li>
+              </ul>
+          </div>
+  
+          <div class="contact">
+              <ul>
+                  <li>
+                      <a>
+                          Blog</a>
+                     
+                  </li>
+                  <li>hello@oloke.ng</li>
+
+                  <a href="tel:08029733382">
+                      <li>+234 8029 7333 82</li>
+                  </a>
+                 
+
+                  <a href="https://www.notion.so/Vendor-s-Circle-b6bf34939a6f497fb3a64ddbe7a469c3">
+                      <li>Terms and Conditions</li>
+                  </a>
+                  
+                  
+              </ul>
+          </div>
+      </div>
+      <div class="socials">
+          <a href="https://www.instagram.com/vendors_circle/">
+              <i class="ri-instagram-line"></i></a>
+          
+          <i class="ri-twitter-line"></i>
+          <a href="https://api.whatsapp.com/send?phone=+234%20802%20973%203382&text=Hi i have some questions concerning Vendor's circle">
+              <i class="ri-whatsapp-line"></i></a>
+         
+          <!-- <i class="ri-telegram-fill"></i> -->
+      </div>
+
+      <div class="credits">
+          <p>&copy;2021 Oloke premium teas</p>
+          <p>Built with 
+              <a href="https://Netlify.com">❤</a>
+              
+              by
+              <a href="https://www.jesseakoh.com">
+                  Fervent
+              </a>
+          </p>
+      </div>
+  </div>
+  
+  
+</footer>
           <!-- end footer -->
           <!-- Javascript files-->
 
-          <script src="js/jquery.min.js"></script>
+
           <script src="js/bootstrap.bundle.min.js"></script>
-          <script src="js/jquery-3.0.0.min.js"></script>
+
           <script src="js/preloader.js"></script>
           <!-- sidebar -->
-          <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
           <script src="js/custom.js"></script>
           <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
