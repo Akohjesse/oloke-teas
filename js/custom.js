@@ -3,10 +3,10 @@ document.querySelector('.menu_btn .bars i').addEventListener('click', ()=>{
 })
 
 this.addEventListener('click', (e)=> {
+	 if(e.target.classList.contains('menu_box')){
+		document.querySelector('.menu_box').style = 'display:none ';
+	 }
 	
-	if(e.target.classList.contains('menu_btn')){
-		console.log('peter')
-	}
 })
 
 
