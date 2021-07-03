@@ -2,16 +2,15 @@
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
  @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
  @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
- 2) font-family: 'Poppins', sans-serif;
- ----------------------------------------*****/
-/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
-
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
  @import url(normalize.css);
  @import url(preloader.css);
  @import url(products.css);
- @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Raleway&display=swap');
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+/* 
+ ----------------------------------------------------------------------- skeleton ---------------------------------------------------------------------- */
+
  * {
      box-sizing: border-box !important;
 }
@@ -152,18 +151,19 @@
   .text-bg span {
       transition: ease-in 0.5s ;
        font-size: 31px;
+       font-weight: 500;
     line-height: 41px;
-    color: #020500
+    color: #020500;
+    font-family: 'Dancing Script', cursive;
   }
  .text-bg h1 {
-    color: orange;
+    color: lightgreen;
 padding-top: 10px;
+font-family: 'Lato', sans-serif;
 font-size: 61px;
-font-family: 'Limelight', cursive;
-line-height: 85px;
 padding-bottom: 30px;
 transition: ease-in 0.5s ;
-font-weight: bold;
+font-weight: 500;
 }
  .text-bg p {
      font-size: 18px;

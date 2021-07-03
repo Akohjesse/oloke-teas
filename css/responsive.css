@@ -134,8 +134,8 @@ line-height: 20px;}
 }
      .header {
          padding: 5px 0px 0px 0px;
-         background:linear-gradient(to right, rgb(243, 235, 221), lightgreen);
-    }
+         background: rgb(243, 235, 221);
+     }
     .logo_section{
         z-index:10;
     }
