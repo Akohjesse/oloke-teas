@@ -157,9 +157,9 @@
     font-family: 'Dancing Script', cursive;
   }
  .text-bg h1 {
-    color: lightgreen;
+    color: orange;
 padding-top: 10px;
-font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 61px;
 padding-bottom: 30px;
 transition: ease-in 0.5s ;
