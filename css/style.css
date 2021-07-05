@@ -162,6 +162,7 @@ padding-top: 10px;
 font-family: 'Poppins', sans-serif;
 font-size: 61px;
 padding-bottom: 30px;
+letter-spacing: 1px;
 transition: ease-in 0.5s ;
 font-weight: 500;
 }
