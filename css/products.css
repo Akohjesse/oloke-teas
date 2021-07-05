@@ -25,6 +25,7 @@
   }
   .products h3 {
     text-align: center;
+    padding: 4%;
   }
   .products .oloke_img {
     width: 100%;
@@ -168,7 +169,6 @@
     color: white;
   }
   footer {
-    background: rgba(186, 248, 186, 0.898);
     background-size: cover;
   }
   footer .wrap {
@@ -344,6 +344,102 @@
   }
   .favourites .items .img img {
     width: 100%;
+  }
+  .favourites .items .price {
+    color: green;
+  }
+  .favourites .items .info {
+    line-height: normal;
+    font-size: 0.9em;
+  }
+  .favourites .items .add {
+    margin: 20px 0;
+    color: orange;
+  }
+  .favourites .items .add button {
+    width: auto;
+    padding: 8px 15px;
+    background: white;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+  .accesories {
+    width: 93%;
+    margin: 0 auto;
+  }
+  .accesories .wrap {
+    margin: 20px auto;
+    width: 95%;
+  }
+  .accesories .wrap .img {
+    width: 100%;
+  }
+  .accesories .wrap img {
+    border-radius: 10px;
+    -webkit-filter: invert(20%);
+            filter: invert(20%);
+  }
+  .accesories .wrap p {
+    -webkit-transform: translateY(-50vh);
+            transform: translateY(-50vh);
+    padding: 20px;
+    line-height: 30px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 850;
+    color: white;
+  }
+  footer {
+    background-size: cover;
+  }
+  footer .wrap {
+    width: 95%;
+    padding: 4% 10px;
+    margin: 0px auto;
+  }
+  footer .wrap .sideBYside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .wrap .sideBYside ul a {
+    text-decoration: none;
+  }
+  footer .wrap .sideBYside ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    font-size: 1em;
+    color: black;
+  }
+  footer .wrap .sideBYside ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  footer .wrap .socials {
+    margin: 3% 0px;
+    text-align: center;
+  }
+  footer .wrap .socials i {
+    font-size: 1.2em;
+    padding: 0px 4%;
+    color: black;
+  }
+  footer .wrap .socials a {
+    text-decoration: none;
+  }
+  footer .wrap .credits {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+  }
+  footer .wrap .credits a {
+    color: orange;
   }
 }
 /*# sourceMappingURL=products.css.map */
