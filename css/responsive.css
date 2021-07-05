@@ -52,11 +52,6 @@
 
  @media (min-width: 576px) and (max-width: 767px) {
     .slider_section {padding: 50px 0;}
-    .logo {
- 
-    margin-top: 0px;
-
-}
      .text-bg h1 {padding-top: 0px;}
      .text-img {
         padding-top: 30px;
@@ -67,7 +62,24 @@
      ul.top_icon li a {
         padding: 0px 13px;
     }
-   
+    .header  .flex-item{
+        display: flex;
+        width:93%;
+        margin:0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #wave_header{
+        margin-top:-5%;
+        z-index:-10;
+    }
+    .header {
+        padding: 5px 0px 0px 0px;
+        background: rgb(243, 235, 221);
+    }
+    .logo{
+        width:60%;
+    }
 }
  @media (max-width: 575px) {
     .header  .flex-item{
@@ -91,8 +103,11 @@
     .logo_section{
         z-index:10;
     }
+    .logo{
+         width:20%;
+    }
     .logo img{
-        width:60px;
+        width:100%;
     }
 .slider_section {
     padding: 10px 0px 40px 0px;

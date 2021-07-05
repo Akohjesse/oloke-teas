@@ -206,24 +206,3 @@ margin-right: 10px;
     width: 15px; height: 15px; border-radius: 10px; background: #747474; 
 }
 .padding_dd {padding: 0px 50px;}
-
-
-
-.margin_top span {
-    z-index: 9;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    right: 0;
-    top: 27%;
-    background: #428713;
-    padding: 19px 25px;
-    border-radius: 88px;
-    margin-right: -20px;
-    position: absolute;
-    color: #fff;
-    font-size: 19px;
-}
-.margin_top {
-    margin-top: -90px;
-}
