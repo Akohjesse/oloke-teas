@@ -23,15 +23,10 @@
     }
 }
  @media (min-width: 992px) and (max-width: 1199px) {
-      .mean-last {display: none !important;}
       .logo {
    padding-bottom: 6px;
     
 }
-    .main-menu ul > li a {
-        padding: 11px 13px;
-       font-size: 16px;
-    }
      
      .text-bg h1 {
         
@@ -41,10 +36,6 @@
     }
      .text-bg span {
         padding-bottom: 13px;
-    }
-     .submit {
-        padding: 17px 0px;
-         max-width: 231px;
     }
 }
  @media (min-width: 768px) and (max-width: 991px) {
