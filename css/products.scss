@@ -55,9 +55,6 @@
                 padding:20px;
                 .img{
                     width:100%;
-                    &:hover img{
-                        transform: scale(1.1);
-                    }
                     img{
                         width:100%;
                         transition: 0.5s;
@@ -85,17 +82,16 @@
                 }
             }
         }
-        .more
-        {
-        text-align:center;
-        button{
-            color:rgb(24, 172, 24);
-            font-size:1em;
-            text-transform: uppercase;
-            padding:9 20px ;
-            background: white;
-        }
-        }
+        .more {
+            text-align:center;
+            button{
+                color:rgb(24, 172, 24);
+                font-size:1em;
+                text-transform: uppercase;
+                padding:9 20px ;
+                background: white;
+            }
+            }
     }
 
     .favourites{
@@ -262,18 +258,90 @@
             width:100%;
         }
         .banner{
-            width:93%;
+           margin:0 50px;
             background: white;
             transform: translateY(-30%);
             box-shadow: 0px 0px 10px 1px #c1c1c1;;
-            margin: 0 auto;
             padding:8px 0px;
             text-align: center;
             h2{
                 color:orange;
             }
-            .items{
-                display: grid;
+        }
+        .items{
+            display: grid;
+            width:95%;
+            margin: 0 auto;
+            grid-gap: 20px;
+            grid-template-columns:1fr 1fr;
+            .wrap{
+                text-align: center;
+                box-shadow: 0px 0px 10px 1px #c1c1c1;;
+                padding:10px;
+                .item_info{
+                    h2{
+                        font-size: 2em;
+                    }
+                    h2,p{
+                        margin:10px 0px;
+                    }
+                    p{
+                        font-size: 0.9em;
+                    }
+                }
+                .buy{
+                    margin:10px 0px;
+                    button{
+                        width:auto;
+                        padding:8px 15px;
+                        color:green;
+                        background:white;
+                        text-align: center;
+                        border: 1px solid grey;
+                        border-radius:4px;
+                    }
+                }
+            }
+            
+        }
+
+        .more {
+            text-align:center;
+            margin: 25px 0px;
+            button{
+                color:rgb(24, 172, 24);
+                font-size:1em;
+                text-transform: uppercase;
+                padding:13px 20px ;
+                border: 1px solid grey;
+                border-radius:4px;
+                background: white;
+            }
+            }
+    }
+    .favourites{
+        width:100%;
+        margin:0 auto;
+        padding:30px 0px;
+        h3{
+            text-align: center;
+            margin:20px;
+            font-size: 1.5em;
+        }
+        .items{
+            display: grid;
+            width:95%;
+            margin: 0 auto;
+            grid-gap: 20px;
+            grid-template-columns:1fr 1fr;
+            .wrap{
+                box-shadow: 0px 0px 10px 1px #c1c1c1;;
+                padding:20px;
+            }.img{
+                width:100%;
+                img{
+                    width:100%;
+                }
             }
         }
     }
