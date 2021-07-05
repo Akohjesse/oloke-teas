@@ -247,5 +247,33 @@
     margin: 10px 0;
     color: white;
   }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .products h3 {
+    text-align: center;
+  }
+  .products .oloke_img {
+    width: 100%;
+  }
+  .products .banner {
+    width: 93%;
+    background: white;
+    -webkit-transform: translateY(-30%);
+            transform: translateY(-30%);
+    -webkit-box-shadow: 0px 0px 10px 1px #c1c1c1;
+            box-shadow: 0px 0px 10px 1px #c1c1c1;
+    margin: 0 auto;
+    padding: 8px 0px;
+    text-align: center;
+  }
+  .products .banner h2 {
+    color: orange;
+  }
+  .products .banner .items {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 /*# sourceMappingURL=products.css.map */
