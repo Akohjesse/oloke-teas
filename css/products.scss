@@ -224,7 +224,7 @@
         }
     }
 }
-@media (min-width:576px){
+@media (min-width:576px) and (max-width:767px){
     .menu_box{
         display: none;
         width:100%;
@@ -441,4 +441,29 @@
         }
     }
 
+}
+@media (min-width: 767px) and (max-width: 991px) {
+    .menu_box{
+        display: none;
+        width:100%;
+        z-index: 30;
+        height:100vh;
+        backdrop-filter: blur(4px);
+        position:fixed;
+        .wrap{
+            padding:20px 30px;
+            width:80%;
+            border-radius:13px;
+            margin:50px auto;
+            background:orange;
+            .menu_box_item{
+                ul{
+                    li{
+                        margin:10px 0;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -39,15 +39,24 @@
     }
 }
  @media (min-width: 768px) and (max-width: 991px) {
-    .logo {
-   padding-bottom: 6px;
-    
-}
+    .logo{
+        width:10%;
+    }
     .text-bg h1 {
         font-size: 55px;
        line-height: 73px
     }
-    .margin_top span {top: 44%;}
+    .menu_btn .bars i {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    .header  .flex-item{
+        display: flex;
+        width:93%;
+        margin:0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
  @media (min-width: 576px) and (max-width: 767px) {

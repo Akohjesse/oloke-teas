@@ -21,7 +21,10 @@
      z-index: 999;
      width: 100%;
      padding: 20px 30px 20px 30px;
-     background: #ffffff;
+     background: rgb(243, 235, 221);
+}
+footer{
+    background: rgb(243, 235, 221);
 }
  .text-bg {text-align: left;}
   .text-bg span {
